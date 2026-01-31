@@ -1,0 +1,77 @@
+{% extends "base.html" %}
+
+{% block title %}FileVault - Secure File Storage{% endblock %}
+
+{% block content %}
+<div class="hero">
+    <div class="hero-content">
+        <h1 class="hero-title">
+            <span class="gradient-text">Secure File Storage</span>
+            <br>Made Simple
+        </h1>
+        <p class="hero-subtitle">
+            Upload, store, and access your files from anywhere. 
+            Your data stays private and secure with FileVault.
+        </p>
+        <div class="hero-buttons">
+            <a href="{{ url_for('register') }}" class="btn btn-primary btn-lg">
+                <i class="fas fa-rocket"></i> Get Started Free
+            </a>
+            <a href="{{ url_for('login') }}" class="btn btn-secondary btn-lg">
+                <i class="fas fa-sign-in-alt"></i> Sign In
+            </a>
+        </div>
+    </div>
+    <div class="hero-visual">
+        <div class="floating-card card-1">
+            <i class="fas fa-image"></i>
+            <span>Images</span>
+        </div>
+        <div class="floating-card card-2">
+            <i class="fas fa-file-pdf"></i>
+            <span>Documents</span>
+        </div>
+        <div class="floating-card card-3">
+            <i class="fas fa-file-video"></i>
+            <span>Videos</span>
+        </div>
+        <div class="vault-icon">
+            <i class="fas fa-shield-alt"></i>
+        </div>
+    </div>
+</div>
+
+<section class="features">
+    <h2 class="section-title">Why Choose FileVault?</h2>
+    <div class="features-grid">
+        <div class="feature-card">
+            <div class="feature-icon">
+                <i class="fas fa-lock"></i>
+            </div>
+            <h3>Secure Storage</h3>
+            <p>Your files are protected with authentication. Only you can access your uploads.</p>
+        </div>
+        <div class="feature-card">
+            <div class="feature-icon">
+                <i class="fas fa-cloud-upload-alt"></i>
+            </div>
+            <h3>Easy Upload</h3>
+            <p>Drag and drop or click to upload. Support for images, documents, and more.</p>
+        </div>
+        <div class="feature-card">
+            <div class="feature-icon">
+                <i class="fas fa-eye"></i>
+            </div>
+            <h3>Preview Files</h3>
+            <p>View your images and documents directly in the browser without downloading.</p>
+        </div>
+        <div class="feature-card">
+            <div class="feature-icon">
+                <i class="fas fa-download"></i>
+            </div>
+            <h3>Quick Download</h3>
+            <p>Download your files anytime with a single click. Fast and reliable.</p>
+        </div>
+    </div>
+</section>
+{% endblock %}
