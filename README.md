@@ -29,17 +29,12 @@ A fullstack web application that allows users to securely upload, store, and ret
    source venv/bin/activate  # On Windows: venv\Scripts\activate
    ```
 
-2. **Install dependencies**:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. **Run the application**:
+2. **Run the application**:
    ```bash
    python app.py
    ```
 
-4. **Open in browser**:
+3. **Open in browser**:
    Navigate to `http://localhost:5000`
 
 ## Project Structure
