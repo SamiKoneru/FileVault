@@ -42,7 +42,6 @@ A fullstack web application that allows users to securely upload, store, and ret
 ```
 startup_project/
 ├── app.py                 # Flask application (backend)
-├── requirements.txt       # Python dependencies
 ├── README.md             # This file
 ├── static/
 │   ├── css/
