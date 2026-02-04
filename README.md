@@ -79,7 +79,3 @@ startup_project/
 | GET | `/file/<id>` | View file details |
 | GET | `/download/<id>` | Download a file |
 | POST | `/delete/<id>` | Delete a file |
-
-## License
-
-MIT License
